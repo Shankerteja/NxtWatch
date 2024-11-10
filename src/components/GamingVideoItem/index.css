@@ -1,0 +1,30 @@
+.gaming-video-card {
+  width: 150px;
+  margin: 7px;
+  margin-bottom: 16px;
+}
+.game-image {
+  width: 100%;
+}
+.game-name {
+  font-family: Roboto;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 470;
+  color: #181818;
+}
+.gaming-view-count {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 576px) {
+  .gaming-video-card {
+    width: 140px;
+  }
+}
+@media screen and (min-width: 786px) {
+  .gaming-video-card {
+    width: 290px;
+  }
+}

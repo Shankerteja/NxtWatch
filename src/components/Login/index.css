@@ -1,0 +1,100 @@
+.login-page-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card-container {
+  width: 90%;
+  max-width: 430px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 30px;
+  align-items: center;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.login-logo {
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.label {
+  font-family: Roboto;
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.input {
+  padding: 10px 16px;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  border-radius: 4px;
+}
+.show-password-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.showpassword-checkbox {
+  height: 20px;
+}
+.show-password-label {
+  cursor: pointer;
+  font-family: Roboto;
+  color: black;
+  margin-left: 4px;
+  font-size: 15px;
+}
+.submit-button {
+  padding: 10px 16px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.add-style {
+  background-color: #181818;
+}
+.app-style {
+  background-color: #0f0f0f;
+}
+.card-style {
+  background-color: #181818;
+}
+.label-style {
+  color: white;
+}
+.change-color {
+  color: white;
+}
+.error-msg {
+  font-family: Roboto;
+  color: red;
+  margin: 0px;
+}

@@ -1,0 +1,170 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.nav-items-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 786px) {
+  .nav-items-list {
+    display: none;
+  }
+}
+.header-container {
+  padding: 0px 0px;
+}
+.dark-icon {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.logo {
+  height: 20px;
+  margin-left: 0px;
+}
+@media screen and (min-width: 786px) {
+  .logo {
+    height: 40px;
+  }
+  .nav-container {
+    padding: 10px;
+  }
+}
+.nav-item-sm {
+  margin-left: 14px;
+}
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+@media screen and (min-width: 786px) {
+  .add-container {
+    width: 90%;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+    background-size: cover;
+    height: 300px;
+
+    margin-right: auto;
+  }
+}
+.add-logo {
+  height: 40px;
+}
+.add-para {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  width: 60%;
+  line-height: 1.5;
+}
+.cross-button {
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.add-button {
+  background-color: transparent;
+  border: 2px solid blacl;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  cursor: pointer;
+}
+.profile-image {
+  height: 40px;
+  margin-right: 14px;
+  margin-left: 10px;
+}
+.logout-button-lg {
+  border: 2px solid #3b82f6;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #3b82f6;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 5px 16px;
+}
+.nav-items-lg {
+  display: none;
+}
+.theme-image-lg {
+  background-color: transparent;
+  border: none;
+}
+@media screen and (min-width: 786px) {
+  .theme-icon {
+    font-size: 40px;
+  }
+  .nav-items-lg {
+    display: flex;
+    align-items: center;
+  }
+}
+.line {
+  margin: 0px;
+}
+.popup-content {
+  min-width: 300px !important;
+  min-height: 150px !important;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logout-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logout-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 440;
+  color: #1e293b;
+  margin-top: 2px;
+}
+.logout-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.add-color {
+  background-color: #000000;
+}
+.theme-image-lg {
+  cursor: pointer;
+}
+
+.popup-content-menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh !important;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+.menu-cross {
+  align-self: flex-start;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.menu-content {
+  width: 66%;
+}

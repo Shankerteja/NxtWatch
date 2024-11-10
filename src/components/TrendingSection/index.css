@@ -1,0 +1,31 @@
+.trending-total-container {
+  display: flex;
+}
+.tending-section-container {
+  height: 90vh;
+  overflow: auto;
+  width: 100%;
+}
+.trending-videos-list {
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: #f9f9f9;
+  margin-top: 0px;
+}
+
+.trending-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+}
+.trending-heading {
+  font-family: Roboto;
+  font-size: 22px;
+}
+.trend-bg {
+  background-color: #d7dfe9;
+  border-radius: 17px;
+  padding: 3px 5px;
+  margin-right: 10px;
+}
